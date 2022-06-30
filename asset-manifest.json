@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.f747776c.css",
+    "main.js": "/react-gh-pages/static/js/main.fbe23442.js",
+    "static/js/787.0bdae686.chunk.js": "/react-gh-pages/static/js/787.0bdae686.chunk.js",
+    "static/media/Picture.png": "/react-gh-pages/static/media/Picture.debd2550056b8b55f104.png",
+    "static/media/Picture1.png": "/react-gh-pages/static/media/Picture1.f65a8bd0c58f30b5ce9b.png",
+    "static/media/p1.jpg": "/react-gh-pages/static/media/p1.fb19baa232cfe41c4bcb.jpg",
+    "static/media/star2.jpg": "/react-gh-pages/static/media/star2.d3b4e654760f5b171860.jpg",
+    "static/media/star3.jpg": "/react-gh-pages/static/media/star3.62e4184640b4ce27d171.jpg",
+    "static/media/star5.jpg": "/react-gh-pages/static/media/star5.78d1dc5b504de3753005.jpg",
+    "static/media/star4.jpg": "/react-gh-pages/static/media/star4.b6f28546ad4f5ce02f53.jpg",
+    "static/media/bannerGirl.jpg": "/react-gh-pages/static/media/bannerGirl.d527c67d89f24e8a6f05.jpg",
+    "static/media/p4.jpg": "/react-gh-pages/static/media/p4.4b98b1084b9875de4cb7.jpg",
+    "static/media/p2.jpg": "/react-gh-pages/static/media/p2.59abf3f0963229c92258.jpg",
+    "static/media/star6.jpg": "/react-gh-pages/static/media/star6.90375e9e6635fa248654.jpg",
+    "static/media/p5.jpg": "/react-gh-pages/static/media/p5.ec6bd2cad2b16c18a8b6.jpg",
+    "static/media/person7.jpg": "/react-gh-pages/static/media/person7.424b65c6daf855696351.jpg",
+    "static/media/person6.jpg": "/react-gh-pages/static/media/person6.a5751d070cb470db0d68.jpg",
+    "static/media/person3.jpg": "/react-gh-pages/static/media/person3.4b3b989c29d9ee83fcf4.jpg",
+    "static/media/p3.jpg": "/react-gh-pages/static/media/p3.eadcd280ff3b70737643.jpg",
+    "static/media/person2.jpg": "/react-gh-pages/static/media/person2.3f3b24617fb1c44d2556.jpg",
+    "static/media/person4.jpg": "/react-gh-pages/static/media/person4.24c78051e7a5540913c4.jpg",
+    "static/media/person5.jpg": "/react-gh-pages/static/media/person5.597f8dfd8ce0c63ac2fc.jpg",
+    "static/media/person1.jpg": "/react-gh-pages/static/media/person1.93af64e66a46494c573c.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.f747776c.css.map": "/react-gh-pages/static/css/main.f747776c.css.map",
+    "main.fbe23442.js.map": "/react-gh-pages/static/js/main.fbe23442.js.map",
+    "787.0bdae686.chunk.js.map": "/react-gh-pages/static/js/787.0bdae686.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f747776c.css",
+    "static/js/main.fbe23442.js"
+  ]
+}
