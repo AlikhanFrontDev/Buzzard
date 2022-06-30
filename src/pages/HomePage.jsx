@@ -1,15 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Content from '../components/Content';
 import "../style/home.css"
+import "../style/modal.css"
 import AnimatedText from 'react-animated-text-content';
 import bannerGirl from "../img/bannerGirl.jpg"
 import { MdSupportAgent } from 'react-icons/md';
 import { ImLeaf, ImTruck } from 'react-icons/im';
 import { BsBarChart } from 'react-icons/bs';
 import Footer from '../components/Footer';
+import { motion } from "framer-motion"
+
+
 
 
 function HomePage(props) {
+    const [modal, setModal] = useState(false);
+
+    const toggleModal = () => {
+        setModal(!modal);
+    };
+
+    if (modal) {
+        document.body.classList.add('active-modal')
+    } else {
+        document.body.classList.remove('active-modal')
+    }
     return (
         <>
 
@@ -60,9 +75,13 @@ function HomePage(props) {
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, esse nisi blanditiis facere sequi quaerat!
                             </AnimatedText>
 
-                            <button className='btnPrimary' >Buyurtma berish</button>
+                            <button className='btnPrimary' onClick={toggleModal} >Buyurtma berish</button>
                         </div>
-                        <img src={bannerGirl} alt="img" className='imageBanner' />
+                        <motion.div
+                            animate={{ rotate: 360 }}
+                            transition={{ duration: 0.5 }}>
+                            <img src={bannerGirl} alt="img" className='imageBanner' />
+                        </motion.div>
                     </div>
 
                 </header>
@@ -95,6 +114,31 @@ function HomePage(props) {
                 <Content className="main" />
             </div>
             <Footer className="footer" />
+
+
+            {modal && (
+                <div>
+                    <div className="modal">
+                        <div onClick={toggleModal} className="overlay"></div>
+                        <div className="modal-content">
+                            <h2>Buyurtma uchun Xabar qoldiring</h2>
+                            <form action="POST" >
+                                <div className='toggleForm'>
+                                    <input type="text" />
+                                    <input type="text" />
+                                    <textarea type="text" />
+                                </div>
+                            </form>
+                            <p>Xabar qoldirganingizdan so'ng tez orada siz bilan bog'lanamiz.</p>
+                            <button className="close-modal" onClick={toggleModal}>
+                                Yopish
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+
         </>
     );
 }
