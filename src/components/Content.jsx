@@ -20,6 +20,7 @@ import p2 from "../img/p2.jpg"
 import p3 from "../img/p3.jpg"
 import p4 from "../img/p4.jpg"
 import p5 from "../img/p5.jpg"
+import MySwiper from './Swiper';
 
 
 
@@ -27,6 +28,9 @@ import p5 from "../img/p5.jpg"
 function Content(props) {
     return (
         <div>
+            <div className="section">
+                <MySwiper />
+            </div>
             <main className="main">
                 <section className="info1">
                     <h2>Zaytun ekstraktili shampun</h2>
