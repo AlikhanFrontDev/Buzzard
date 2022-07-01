@@ -1,0 +1,42 @@
+.adminSidebar{
+    background-color: aliceblue;
+    width: 15%;
+    height: 100vh;
+    font-family: sans-serif;
+    color: #555;
+}
+
+.container{
+    border-bottom: 1px solid #555;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigationInAdmin{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.adminNav{
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: #777;
+    border: 1px solid aliceblue;
+    height: 50px;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active{
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #555;
+    border-radius: 12px;
+}

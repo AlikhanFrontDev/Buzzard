@@ -1,0 +1,30 @@
+.blogList-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    width: 80%;
+    margin: 0 auto;  
+  }
+  
+  @media (max-width: 768px) {
+    .blogList-wrap {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .blogList-wrap {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+.boc{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+}
+
+.BlogTitle{
+  text-align: center;
+  font-size: 35px;
+}

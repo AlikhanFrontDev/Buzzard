@@ -1,3 +1,5 @@
+
+
 /* grid styles ------------------------------------ */
 @media (min-width: 600px) {
     main {
@@ -9,8 +11,15 @@
       font-family: sans-serif;
     }
 
+    /* .figure-img{
+      margin: 0px;
+    } */
+
+
     .productsImage{
       height: 300px;
+      border-radius: 20px;
+      margin-bottom: 30px;
     }
 
     .products{
@@ -30,7 +39,7 @@
     }
     
     .figure1 {
-      grid-column: span 3;
+      grid-column: span 6;
       grid-row: span 2;
     }
     .figure6 {
@@ -41,11 +50,29 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
   .products{
     display: flex;
-    flex-direction: column;
-    margin-right: 40px;
+    justify-content: unset;
+    flex-direction: row;
+    margin-right: 0px;
+    height: 70px;
+    padding: 15px;
+    
+  }
+  .productsImage{
+    margin: 5px;
+
+  }
+  body{
+    margin: 0;
+  }
+
+  .figure-img{
+    width: 90% !important;
+    height: 100%;
+    margin-left: 15px ;
+    border-radius: 20px;
   }
 
   }
@@ -71,15 +98,18 @@
   
   .figure-img {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 150%;
+    height: 90%;
     object-fit: cover;
+    border: 2px solid rgba(226, 193, 45, 0.582);
+    border-radius: 10px;
   }
   
   .info1, .info2 {
     padding: 40px;
     background-color: rgba(226, 193, 45, 0.582);
     color: white;
+    text-shadow: 0.2px 0px 0.2px rgba(0, 0, 0, 0.69);
   }
   
   h2 {
